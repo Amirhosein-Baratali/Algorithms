@@ -2,7 +2,7 @@ package com.example.algorithms.two_sum
 
 class TwoSum {
     fun twoSum(numbers: IntArray, target: Int): IntArray {
-        val seen = java.util.HashMap<Int, Int>(numbers.size)
+        val seen = HashMap<Int, Int>(numbers.size)
 
         for (i in numbers.indices) {
             val diff = target - numbers[i]
